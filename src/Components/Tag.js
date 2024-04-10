@@ -7,7 +7,7 @@ const API_KEY = process.env.REACT_APP_GIPHY_API_KEY || 'Xr0MBP9JBTftSYWFkfMLC70S
 const Tag = () => {
   const [gif, setGif] = useState('')
     const [loading, setLoading] = useState(false)
-    const [tag , setTag] =useState(true)
+    const [tag , setTag] =useState('')
 
     async function fetchData() {
         setLoading(true); // Start loading
